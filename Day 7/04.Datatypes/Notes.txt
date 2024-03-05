@@ -1,0 +1,20 @@
+There are majorly two types of languages. 
+
+1.Statically typed language
+2.Dynamically typed languages
+
+
+Statically typed language: Where each variable and expression type is already known at compile time. Once a variable is declared to be of a certain data type, it cannot hold values of other data types.
+
+Example: C, C++, Java. 
+
+// Java(Statically typed)
+int x = 5 // variable x is of type int and it will not store any other type.
+string y = 'abc' // type string and will only accept string values
+
+
+Dynamically typed languages: These languages can receive different data types over time. In this type of language, we don’t need to specify whether the value in the variable is an integer, string, or any other data type like float, double, etc. The JavaScript Engine automatically understands the data type. We can re-assign any variable with any other value having another data type
+
+// Javascript(Dynamically typed)
+let x = 5; // can store an integer
+let name = 'string'; // can also store a string.

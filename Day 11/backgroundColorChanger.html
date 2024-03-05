@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        border: 2px solid green;
+      }
+      .color {
+        display: table-cell;
+        width: 50px;
+        height: 50px;
+        margin: 0 1px;
+        cursor: pointer;
+        border: 2px solid #fff;
+      }
+      .blue{
+        background-color: blue;
+      }
+      .red{
+        background-color: red;
+
+      }
+      .orange{
+        background-color: orange;
+
+      }
+      .green{
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span id="1" onclick="color(this)" class="color blue"></span>
+      <span id="2" onclick="color(this)" class="color red"></span>
+      <span id="3" onclick="color(this)" class="color orange"></span>
+      <span id="4" onclick="color(this)" class="color green"></span>
+    </div>
+    <script>
+        function color(a){
+            var x=getComputedStyle(a);
+         var y=x.backgroundColor;
+         document.getElementsByTagName("body")[0].style.backgroundColor=y;
+
+        }
+    </script>
+  </body>
+</html>

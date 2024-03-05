@@ -1,0 +1,1 @@
+CSS Media Queries allow you to create responsive websites across all screen sizes, ranging from desktop to mobile. So you can see why it's important to learn this topic.

@@ -1,0 +1,5 @@
+1.create a variable of type string and try to add a number to it.
+2.use  typeofoperator to find the datatype of the string in last question.
+3.create a const object in javascript and try to add a new key to the const object in problem 3 were you able to do it?
+4.write a js program to create a word-meaning dictionary of 5 words.
+5. Generate random number here  Keep asking for the number until the correct number is guessed Increment the chances variable. Eventually after the game is over, display the (100 - Number of chances) and the actual number 

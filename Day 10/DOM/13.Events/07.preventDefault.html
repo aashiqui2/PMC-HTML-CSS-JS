@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prevent Default Example</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<a href="https://www.example.com" id="myLink">Click Me</a>
+
+<script>
+document.getElementById("myLink").addEventListener("click", function(e) {
+    e.preventDefault(); // This prevents the default behavior of clicking on a link
+    alert("Link clicked, but default behavior prevented.");
+});
+</script>
+
+</body>
+</html>
+
+
+In this code:
+
+<!-- An anchor <a> element is created with the text "Click Me" and an href attribute set to "https://www.example.com". This would typically navigate to the specified URL when clicked.
+However, JavaScript is used to attach an event listener to this anchor element.
+When the anchor is clicked, the event listener function is triggered.
+Inside this function, e.preventDefault() is called to prevent the default behavior of the link click.
+Instead of navigating to "https://www.example.com", an alert is displayed with the message "Link clicked, but default behavior prevented." -->

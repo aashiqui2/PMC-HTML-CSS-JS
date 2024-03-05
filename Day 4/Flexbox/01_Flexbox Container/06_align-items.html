@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  height: 200px;
+
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: stretch; */
+  align-items: baseline;
+
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>The align-items Property</h1>
+
+<p>The "align-items: center;" aligns the flex items in the middle of the container:</p>
+<p>The "align-items: flex-start;" aligns the flex items at the top of the container:</p>
+<p>The "align-items: flex-end;" aligns the flex items at the bottom of the container:</p>
+<p>The "align-items: stretch;" stretches the flex items to fill the container (this is default):</p>
+<p>The "align-items: baseline;" aligns the flex items such as their baselines aligns:</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<!-- this container is only for baseline -->
+
+<!-- <div class="flex-container">
+    <div><h1>1</h1></div>
+    <div><h6>2</h6></div>
+    <div><h3>3</h3></div>  
+    <div><small>4</small></div>  
+  </div> -->
+
+</body>
+</html>
+
+

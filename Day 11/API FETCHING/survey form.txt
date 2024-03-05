@@ -1,0 +1,7 @@
+Main components of a Survey Form
+You will be creating 5 main components you need to include in the survey form.
+
+Title heading
+A short paragraph explaining details about the form
+Different form inputs like normal text, number, email, dropdown, radio button, checkbox and text area
+A submit button to send the data

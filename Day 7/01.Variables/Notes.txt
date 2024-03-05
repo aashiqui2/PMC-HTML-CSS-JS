@@ -1,0 +1,2 @@
+Variables in JavaScript:
+ Variables in JavaScript are containers that hold reusable data. It is the basic unit of storage in a program.  

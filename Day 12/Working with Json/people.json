@@ -1,0 +1,15 @@
+[{
+    "name":"IronMan",
+    "age":35,
+    "isAvenger":true
+},
+{
+    "name":"SpiderMan",
+    "age":21,
+    "isAvenger":true
+},
+{
+    "name":"SuperMan",
+    "age":35,
+    "isAvenger":false
+}]

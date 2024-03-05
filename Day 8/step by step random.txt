@@ -1,0 +1,15 @@
+// Step 1: Generate a random floating-point number between 0 and 1
+let randomFloat = Math.random(); // Example: 0.7632589144320493
+
+// Step 2: Calculate the range (100 - 10 + 1) = 91
+
+// Step 3: Round down the result to the nearest integer
+let randomFloatInRange = randomFloat * 91; // Example: 69.50694061711066
+
+// Step 4: Convert the floating-point number to an integer
+let randomIntegerInRange = Math.floor(randomFloatInRange); // Example: 69
+
+// Step 5: Shift the range from 0-90 to 10-100
+let randomNumber = randomIntegerInRange + 10; // Example: 79
+
+console.log(randomNumber); // Output: 79

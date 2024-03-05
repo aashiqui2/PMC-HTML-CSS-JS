@@ -1,0 +1,24 @@
+
+
+1. Create a simple webpage with a header, footer, and main content area.
+2. Add an image to the webpage and provide alternative text for accessibility.
+3. Create a navigation menu using an unordered list (`<ul>`) and list items (`<li>`).
+4. Embed a YouTube video onto the webpage.
+5. Create a form with text input fields, radio buttons, checkboxes, and a submit button.
+6. Implement a dropdown menu using HTML `<select>` and `<option>` elements.
+7. Use HTML tables to display tabular data.
+8. Add hyperlinks (`<a>` tags) to navigate between different pages or sections within the same page.
+9. Use semantic HTML elements such as `<article>`, `<section>`, `<aside>`, and `<header>` to structure the webpage.
+10. Embed a Google Maps iframe onto the webpage to display a location.
+11. Create a webpage with multiple sections, each containing a different background color.
+12. Implement a basic login form with username and password fields.
+13. Add a video player to the webpage using the HTML5 `<video>` element.
+14. Embed an audio player onto the webpage using the HTML5 `<audio>` element.
+15.Create a contact form with fields for name, email, subject, and message.
+16.Implement a dropdown menu with submenus using HTML and CSS.
+17.create aan element with id head and verify that background color works on it as inline,external as well as using style tag css.
+18.create a div and add a background image with a given width and height.
+19.change the color of the color of the main container on your page to dark red.
+20.create an html tag with h1,p,img,ul,forms.
+
+
