@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: black;
+    color: white;
+} */
+.invert{
+    filter:invert(1);
+}
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+ul li{
+    width: 14px;
+    list-style: none;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+.heading{
+    width: 100%;
+    list-style: none;
+    /* display: flex; */
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+    padding: 23px 14px;
+    font-size: 13px;
+}
+.heading img{
+    width: 30px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    /* display: flex; */
+    gap:13px;
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.footer a{
+    color: grey;
+}
+.right{
+    width: 75vw;
+    margin: 16px 0;
+}
+.header{
+    justify-content: space-between;
+    background-color: rgb(34 34 34);
+}
+.header >*{
+padding: 20px;
+}
+
+.signupbtn{
+    background-color: black;
+    color: rgb(156, 148, 148);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.btn >*{
+    margin: 0 12px;
+}
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px;
+}
+.spotifyplaylist{
+    padding:16px;
+}
+.cardcontainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card >*{
+    padding-top: 10px;
+}
